@@ -46,10 +46,10 @@ The first version of the Meal Management System will include the following featu
 
 ---
 
-### Market Management
+### Bazar Management
 
-- Market Entry
-- Bulk Market Entry
+- Bazar Entry
+- Bulk Bazar Entry
 - Expense History
 
 ---

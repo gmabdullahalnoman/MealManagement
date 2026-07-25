@@ -2,7 +2,7 @@
 
 ## Project Name
 
-Meal Management System
+Meal Management
 
 ---
 

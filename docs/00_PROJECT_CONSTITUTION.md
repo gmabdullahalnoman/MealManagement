@@ -7,7 +7,7 @@ Version: 1.0 | Status: Active | Last Updated: 2026-07-21
 
 # 1. Purpose
 
-This document serves as the Single Source of Truth (SSOT) for the Meal Management System project.
+This document serves as the Single Source of Truth (SSOT) for the Meal Management project.
 
 All architectural decisions, engineering standards, development workflow, release strategy, and project goals must follow this document.
 
@@ -19,7 +19,7 @@ Whenever any conflict, confusion, or design decision arises, this document takes
 
 Build a production-grade Meal Management System that helps small and medium-sized meal groups manage their monthly meal accounting accurately, transparently, and efficiently.
 
-The project is intended for real-world daily use, not merely as a learning exercise.
+The project is intended for real-world daily use.
 
 ---
 
@@ -46,9 +46,7 @@ The project should demonstrate professional-level engineering rather than simply
 
 # 5. Project Philosophy
 
-This project is NOT a tutorial project.
-
-This project will be treated as a real software product developed by a professional software company.
+This project will be a real software product developed by a SWE(Abdullah Al Noman) working in a professional software company named NexERP.
 
 Every decision should prioritize:
 
@@ -65,7 +63,7 @@ Shortcut solutions are discouraged.
 
 # 6. Engineering Philosophy
 
-We write software that is:
+We'll write software that is:
 
 - Understandable
 - Maintainable
@@ -110,75 +108,45 @@ AI may assist in:
 
 AI should never replace understanding.
 
-Every generated code must be understood before acceptance.
-
 ---
 
 # 9. Development Workflow
 
-Idea
-
-↓
-
-Requirement Analysis
-
-↓
-
-Business Rules
-
-↓
-
-Use Cases
-
-↓
-
-SRS
-
-↓
-
-Architecture
-
-↓
-
-Database Design
-
-↓
-
-API Design
-
-↓
-
-UI Design
-
-↓
-
-Development
-
-↓
-
-Testing
-
-↓
-
-Code Review
-
-↓
-
-Refactoring
-
-↓
-
-Release
-
-↓
-
-Maintenance
+    Idea
+        ↓
+    Requirement Analysis
+        ↓
+    Business Rules
+        ↓
+    Use Cases
+        ↓
+    SRS
+        ↓
+    Architecture
+        ↓
+    Database Design
+        ↓
+    API Design
+        ↓
+    UI Design
+        ↓
+    Development
+        ↓
+    Testing
+        ↓
+    Code Review
+        ↓
+    Refactoring
+        ↓
+    Release
+        ↓
+    Maintenance
 
 No phase should be skipped without justification.
 
 ---
 
-# 10. SDLC Policy
+# 10. SDLC
 
 The project will follow a complete Software Development Life Cycle.
 
@@ -195,7 +163,7 @@ Every release must pass through:
 
 ---
 
-# 11. STLC Policy
+# 11. STLC
 
 Every feature must include testing.
 
@@ -214,33 +182,28 @@ Testing includes:
 
 Main Branch
 
-main
+    main
 
 Development Branch
 
-develop
+    develop
 
 Feature Branches
 
-feature/authentication
-
-feature/member-management
-
-feature/meal
-
-feature/accounting
-
-feature/report
-
-feature/settings
+    feature/authentication
+    feature/member-management
+    feature/meal
+    feature/accounting
+    feature/report
+    feature/settings
 
 Hotfix Branch
 
-hotfix/...
+    hotfix/...
 
 Release Branch
 
-release/...
+    release/...
 
 No direct commit to main.
 
@@ -274,7 +237,7 @@ done
 
 ---
 
-# 14. Code Review Policy
+# 14. Code Review
 
 Every completed feature must be reviewed.
 
@@ -291,39 +254,26 @@ Review checklist:
 
 ---
 
-# 15. Documentation Policy
+# 15. Documentation
 
 Documentation is mandatory.
 
 Project documents may include:
 
-Vision
-
-BRD
-
-SRS
-
-Business Rules
-
-Use Cases
-
-Architecture
-
-ER Diagram
-
-Sequence Diagram
-
-Activity Diagram
-
-Database Design
-
-API Specification
-
-Deployment Guide
-
-User Manual
-
-Release Notes
+    Vision
+    BRD
+    SRS
+    Business Rules
+    Use Cases
+    Architecture
+    ER Diagram
+    Sequence Diagram
+    Activity Diagram
+    Database Design
+    API Specification
+    Deployment Guide
+    User Manual
+    Release Notes
 
 ---
 
@@ -336,8 +286,6 @@ Avoid unnecessary complexity.
 Follow SOLID principles where appropriate.
 
 Follow Clean Code principles.
-
-Prefer composition over inheritance when suitable.
 
 Use meaningful names.
 
@@ -405,7 +353,7 @@ A feature is considered complete only when:
 
 ---
 
-# 21. Release Policy
+# 21. Release
 
 Every release should include:
 
@@ -421,7 +369,7 @@ Release notes
 
 ---
 
-# 22. Learning Policy
+# 22. Learning
 
 This project is also a learning journey.
 

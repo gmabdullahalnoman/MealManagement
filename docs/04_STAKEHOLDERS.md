@@ -4,7 +4,7 @@ This document defines the stakeholders of the Meal Management System and their p
 
 ---
 
-# System Administrator
+# System Administrator(Owner)
 
 The System Administrator manages the platform.
 
@@ -84,3 +84,21 @@ Member
 ↓
 
 Viewer
+
+# Permission Matrix
+
+## Role Permission Matrix
+
+| Feature | Admin | Member | Viewer |
+|----------|:-----:|:------:|:------:|
+| Dashboard | ✅ | ✅ | ✅ |
+| Member Management | ✅ | ❌ | ❌ |
+| Meal Request | ✅ | ✅ | ❌ |
+| Daily Meal Sheet | ✅ | ✅ | ❌ |
+| Meal History | ✅ | ✅ | ✅ |
+| Bazar Entry | ✅ | ✅ | ❌ |
+| Asset Entry | ✅ | ✅ | ❌ |
+| Reports | ✅ | ✅ | ✅ |
+| Audit Log | ✅ | ❌ | ❌ |
+| Monthly Closing | ✅ | ❌ | ❌ |
+| Settings | ✅ | ❌ | ❌ |
