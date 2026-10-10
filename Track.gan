@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="MealManagement" company="6A Core Solution" webLink="http://" view-date="2026-10-04" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="en_GB">
     <description><![CDATA[A Java, Spring Boot, PostgreSQL learning and building production ready product]]></description>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd15" name="Notes" width="20" order="-1"/>
         <field id="tpd3" name="Name" width="200" order="0"/>
         <field id="tpd4" name="Begin date" width="75" order="1"/>
         <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
@@ -46,11 +46,11 @@
         <task id="4" uid="5cb27e64e4e346c1a02eab1713eea670" name="Application.properties explaination" meeting="false" start="2026-10-07" duration="1" complete="0" expand="true"/>
         <task id="6" uid="9bb70132b8aa466fa0e37fa001c29f80" name="Initialized README.md file" color="#66ff00" meeting="false" start="2026-10-07" duration="1" complete="0" expand="true"/>
         <task id="7" uid="6b2f5eebed584d9c8f18575dea9113f5" name="Initializing Gantt Chart to track" color="#33ffcc" meeting="false" start="2026-10-08" duration="1" complete="0" expand="true"/>
+        <task id="8" uid="fbdc71b9770d46f7bf5bbb0520a507d4" name="Add MealGroup JPA entity" color="#33ffcc" meeting="false" start="2026-10-10" duration="1" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
     <vacations/>
     <previous/>
     <roles roleset-name="Default"/>
-    <roles roleset-name="SoftwareDevelopment"/>
 </project>
